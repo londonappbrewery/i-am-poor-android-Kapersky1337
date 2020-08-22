@@ -9,4 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_am_poor" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="245dp"
+        android:layout_height="70dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="I am Poor"
+        android:autofillHints="" />
 </RelativeLayout>
