@@ -23,8 +23,8 @@
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
         android:layout_centerHorizontal="true"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        tools:text="I am Poor"
-        android:autofillHints="" />
+        tools:text="I am Poor" />
 </RelativeLayout>
